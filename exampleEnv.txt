@@ -1,0 +1,8 @@
+DISCORD_TOKEN=your bot token
+CLIENT_ID=your application ID
+GUILD_ID=your server ID
+
+DATABASE_URL=./data/database.db
+
+GIPHY_API_KEY=your GIPHY API key
+GIPHY_RANDOM_ENDPOINT=https://api.giphy.com/v1/gifs/random

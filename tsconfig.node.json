@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
+  "include": ["vitest.config.ts", ".eslintrc.cjs"],
+
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@tests/*": ["./tests/*"],
+      "types": ["@types/node"]
+    }
+  }
+}
